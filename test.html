@@ -1,0 +1,31 @@
+
+
+<!--run the app -->
+<!--copy this html doc into a local html file-->
+<!--send, and see the magic -->
+<!--no need for @Requestbody! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+
+<form action="http://localhost:8080/test/3/cameras" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="key">Name:</label>
+    <input type="text" id="key" name="key" required>
+    <br>
+    <label for="lock">Age:</label>
+    <input type="text" id="lock" name="lock" required>
+    <br>
+    <label for="nishubro">nishubro</label>
+    <input type="text" id="nishubro" name="nishubro" required>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
